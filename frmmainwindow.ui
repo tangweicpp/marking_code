@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FrmMainWindow</class>
+ <widget class="QMainWindow" name="FrmMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>数据维护</string>
+    </property>
+    <addaction name="actionMarkingCode"/>
+    <addaction name="actionWO"/>
+    <addaction name="actionHk075"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionCloseCurrPage"/>
+  </widget>
+  <action name="actionMarkingCode">
+   <property name="text">
+    <string>机种打标规则维护</string>
+   </property>
+  </action>
+  <action name="actionWO">
+   <property name="text">
+    <string>客户WO维护</string>
+   </property>
+  </action>
+  <action name="actionCloseCurrPage">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/close.jpg</normaloff>:/images/close.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>关闭当前窗口</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Q</string>
+   </property>
+  </action>
+  <action name="actionHk075">
+   <property name="text">
+    <string>HK075交期维护</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

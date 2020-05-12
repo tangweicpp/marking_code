@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/bold.png</file>
+        <file>images/clear.png</file>
+        <file>images/close.jpg</file>
+        <file>images/color.png</file>
+        <file>images/erp.jpg</file>
+        <file>images/erp2.jpg</file>
+        <file>images/erp3.jpg</file>
+        <file>images/erp4.jpg</file>
+        <file>images/ERPFINE.jpg</file>
+        <file>images/erpicon.jpg</file>
+        <file>images/erpmain.jpg</file>
+        <file>images/erpmain2.jpg</file>
+        <file>images/erpnew.png</file>
+        <file>images/finder.jpg</file>
+        <file>images/finderOpen.jpg</file>
+        <file>images/italic.png</file>
+        <file>images/login.jpg</file>
+        <file>images/qq.png</file>
+        <file>images/save.png</file>
+        <file>images/under.png</file>
+        <file>images/uploadFile.png</file>
+        <file>images/max.png</file>
+    </qresource>
+</RCC>
